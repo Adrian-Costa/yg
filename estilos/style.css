@@ -45,35 +45,38 @@ main > img{
     width: 500px;
     box-shadow: 0px 0px 10px black;
 }
-#cards-cent{
-    display: flex;
+#main{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 20px;
 }
 section{
-    background-color: rgb(205, 204, 204);
+    background-color: rgb(226, 226, 226);
     height: 180px;
     width: 200px;
-    border: 20px solid rgb(205, 204, 204);
-    margin: 8px;
+    border: 10px solid rgb(226, 226, 226);
+    margin: 10px;
 }
-#title{
+.title{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 5px;
 }
-#title > p{
+.title > p{
     font-weight: 700;
     font-size: 0.9em;
 }
-#title > a{
+.title > a{
     text-decoration: none;
     font-weight: 300;
     font-size: 0.8em;
 }
-#title > a:hover{
+.title > a:hover{
     color: black;
 }
-#sub-t{
+.sub-t{
     display: flex;
     text-align: center;
     font-size: 0.8em;
@@ -97,20 +100,20 @@ section{
 #art:hover{
     background-color: black;
 }
-#content > a{
+.content > a{
     text-decoration: none;
 }
-#content > a > p{
+.content > a > p{
     display: inline;
     color: rgb(83, 83, 83);
     font-size: 0.8em;
     padding: 10px 0px 10px 0px;
 }
-#content > a:hover{
+.content > a:hover{
     text-decoration: underline;
     color: rgb(83, 83, 83);
 }
-#content > p{
+.content > p{
     display: inline;
     color: rgb(139, 138, 138);
     font-size: 0.8em;
@@ -120,31 +123,42 @@ section{
 hr{
     margin: 4px -10px 4px -10px;
 }
-#cent{
+.cent{
     display: flex;
 }
-#cent > a > img{
+.cent > a > img{
     width: 100px;
     margin-top: 35px;
 }
-#caption{
+.caption{
     display: grid;
     margin: 10px;
 }
-#name{
+.name{
     text-decoration: none;
     color: black;
     font-size: 0.9em;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 27px;
+    margin-bottom: -5px;
 }
-#singer{
+.singer{
     text-decoration: none;
-    color: rgb(139, 138, 138);
+    color: rgb(83, 83, 83);
     font-weight: 300;
     font-size: 0.8em;
 }
-#caption > p{
-    color: rgb(139, 138, 138);
+.caption > p{
+    color: rgb(83, 83, 83);
     font-size: 0.8em;
+}
+#news > div > a > img{
+    height: 80px;
+    margin-top: 10px;
+}
+#news > #cent > #caption{
+    margin-top: 0px;
+}
+#yg-life > #content > p{
+    margin-right: 0px;
 }
