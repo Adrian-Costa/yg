@@ -162,3 +162,20 @@ hr{
 #yg-life > #content > p{
     margin-right: 0px;
 }
+footer > p{
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 0.7em;
+}
+footer > img{
+    display: grid;
+    align-content: center;
+    margin: 100px 250px;
+    width: 30px;
+    border: 2px solid rgb(83, 83, 83);
+    padding: 5px;
+    border-radius: 50px;
+}
+footer > img:hover{
+    
+}
