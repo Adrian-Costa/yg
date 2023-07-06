@@ -13,16 +13,15 @@ body, html{
     height: 100vh;
 }
 nav{
-    margin: 35px 5px 20px 5px;
     display: flex;
-    gap: 25px;
+    margin: 35px 0px 20px 5px;
 }
 #logo-h{
     display: flex;
 }
 #logo-h > a > p{
     display: flex;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     line-height: 23px;
 }
 #logo-h > a:hover{
@@ -42,8 +41,7 @@ a:hover{
     color: red;
 }
 main > img{
-    width: 500px;
-    margin: 1px;
+    width: 501px;
     box-shadow: 0px 0px 10px black;
 }
 #main{
@@ -173,7 +171,7 @@ footer > p{
     text-align: center;
     color: rgb(83, 83, 83);
     font-size: 0.7em;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px -20px 0px;
 }
 nav{
     display: flex;
@@ -213,7 +211,7 @@ footer > nav > a > img{
     border: 2px solid white;
 }
 footer > hr{
-    margin: 20px;
+    margin: 40px 20px 20px 20px;
 }
 ul{
     margin: 20px 0px 30px 50px;
@@ -222,7 +220,7 @@ li > a{
     text-decoration: none;
     color: rgb(95, 95, 95);
     font-weight: 700;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 li > a:hover{
     color: black;
@@ -230,16 +228,31 @@ li > a:hover{
 #chines{
     color: red;
 }
-#yg-st{
+#yg-st > a{
     display: flex;
     justify-content: space-between;
     background-color: gray;
     color: white;
+    font-weight: 300;
     width: 450px;
-    padding: 3px 0px 3px 20px;
-    margin: 0px 30px 30px 0px;
+    padding: 3px 20px 3px 20px;
+    margin: 10px 50px 50px 3px;
 }
 #cent{
-    display: grid;
-    justify-items: center;
+    text-align: center;
+}
+#f-ft{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+#f-ft > img{
+    height: 45px;
+    filter: contrast(0%);
+}
+#f-ft > p{
+    color: gray;
+    line-height: 18px;
+    font-size: 0.8em;
+    margin-bottom: 20px;
 }
