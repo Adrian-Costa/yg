@@ -41,11 +41,9 @@ div > a{
 a:hover{
     color: red;
 }
-main{
-    text-align: center;
-}
 main > img{
     width: 500px;
+    margin: 1px;
     box-shadow: 0px 0px 10px black;
 }
 #main{
@@ -184,37 +182,32 @@ nav{
 footer > nav > a > img{
     width: 30px;
     border: 2px solid rgb(83, 83, 83);
-    padding: 5px;
-    border-radius: 30px;
+    border-radius: 15px;
     filter: contrast(0%);
+    padding: 10px;
 }
 #yt:hover{
-    width: 32px;
     filter: none;
     background-color: red;
-    border: none;
+    border: 2px solid red;
 }
 #fb:hover{
-    width: 32px;
     background-color: blue;
     filter: none;
-    border: none;
+    border: 2px solid blue;
 }
 #wb:hover{
-    width: 32px;
     filter: none;
     background-color: rgb(182, 0, 0);
-    border: none;
+    border: 2px solid rgb(182, 0, 0);
 }
 #tw:hover{
-    width: 32px;
     background-color: rgb(71, 71, 255);
     filter: none;
-    border: none;
+    border: 2px solid rgb(71, 71, 255);
 }
 #ig:hover{
-    width: 32px;
     background-image: linear-gradient(45deg, yellow, orange, rgb(255, 0, 115),purple, blue);
     filter: none;
-    border: none;
+    border: 2px solid white;
 }
