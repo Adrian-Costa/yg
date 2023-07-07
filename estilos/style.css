@@ -139,7 +139,11 @@ hr{
     font-size: 0.9em;
     font-weight: 600;
     margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: -5px;
+}
+#music-v .name{
+    margin-top: 30px;
 }
 .name:hover{
     color: black;
@@ -149,6 +153,9 @@ hr{
     color: rgb(83, 83, 83);
     font-weight: 300;
     font-size: 0.8em;
+}
+#music-v .singer{
+    margin-bottom: 0px;
 }
 .singer:hover{
     color: rgb(83, 83, 83);
