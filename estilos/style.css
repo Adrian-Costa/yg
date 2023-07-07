@@ -27,12 +27,13 @@ nav{
 #logo-h img{
     display: flex;
     height: 45px;
+    filter: contrast(200%);
 }
 #logo-h > a{
     display: flex;
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 22px;
 }
 #links{
