@@ -36,8 +36,22 @@ nav{
     font-weight: 700;
     line-height: 22px;
 }
+#nav-h{
+    display: grid;
+    justify-items: right;
+}
+#languages > a{
+    display: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 0.6em;
+    margin: 10px;
+}
 #links{
     display: block;
+    margin-top: -10px;
 }
 #links > a{
     text-decoration: none;
