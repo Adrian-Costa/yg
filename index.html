@@ -5,6 +5,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="estilos/style.css">
+     <link rel="stylesheet" href="estilos/mdQuery.css">
      <title>YG ENTERTAINMENT</title>
      <link rel="shortcut icon" href="favcon/favicon.ico" type="image/x-icon">
  </head>
@@ -13,8 +14,7 @@
     <header>
         <nav>
             <div id="logo-h">
-                <a href="#"><img src="imagens/yg-logo-svg.png" alt="yg logo"></a>
-                <a href="#"><p>YG <br> FAMILY</p></a>
+                <a href="#"><img src="imagens/yg-logo-svg.png" alt="yg logo"><p>YG <br> FAMILY</p>
             </div>
             
             <div id="links">
@@ -22,6 +22,7 @@
                 <a href="#">NEWS</a>
                 <a href="#">ARTISTS</a>
                 <a href="#">ACTORS</a>
+                <br>
                 <a href="#">MULTIMEDIA</a>
                 <a href="#">SELECT</a>
                 <a href="#">WITH</a>
@@ -32,74 +33,77 @@
 
     <main>
         
-            <img src="imagens/jisoo-s.jpg" alt="muié chinesa">
+        <picture>
+            <source media="(max-width: 735px)" srcset="imagens/jisoo-s.jpg" type="image/png">
+            <img src="imagens/jisoo-b.jpg" alt="muié chinesa">
+        </picture>
+        
+        <div id="main">
+            <section id="notice">
+                    <div class="title">
+                        <p>NOTICE</p>
+                        <a href="#">more</a>
+                    </div>
             
-            <div id="main">
-                <section id="notice">
-                        <div class="title">
-                            <p>NOTICE</p>
-                            <a href="#">more</a>
-                        </div>
-                
-                        <div class="sub-t">
-                            <a href="#" id="yg">YG</a>
-                            <a href="#" id="art">ARTISTS</a>
-                        </div>
-
-                        <div class="content">
-                            <a href="#"><p>BLACKPINK WORLD TOUR [BORN PINK]...</p></a>
-                            <p>2023.06.26</p>
-                            <hr>
-                            <a href="#"><p>Changes related to BLACKPINK WOR...</p></a>
-                            <p>2023.06.01</p>
-                        </div>
-                </section>
-
-                <section id="music-v">
-                    <div class="title">
-                        <p>MUSIC VIDEO</p>
-                        <a href="#">more</a>
-                    </div>
-                
-                    <div class="cent">
-                        <a href="#"><img src="imagens/jisoo-thumb.jpg" alt="ota muié chinesa"></a>
-                        <div class="caption">
-                            <a href="#" class="name"><strong>꽃(FLOR)</strong></a>
-                            <a href="#" class="singer">JISOO</a>
-                            <p>2023.03.31</p>
-                        </div>
-                </section>
-                
-                <section id="news">
-                    <div class="title">
-                        <p>NEWS</p>
-                        <a href="#">more</a>
-                    </div>
-                
-                    <div class="cent">
-                        <a href="#"><img src="imagens/bp-thumb.jpg" alt="molieres chinesas"></a>
-                        <div class="caption">
-                            <a href="#" class="name"><p>BLACKPINK Rewrite</p></a>
-                            <p>2023.04.26</p>
-                        </div>
-                </section>
-                
-                <section id="yg-life">
-                    <div class="title">
-                        <p>YG LIFE</p>
-                        <a href="#">more</a>
+                    <div class="sub-t">
+                        <a href="#" id="yg">YG</a>
+                        <a href="#" id="art">ARTISTS</a>
                     </div>
 
                     <div class="content">
-                        <a href="#"><p>BLACKPINK–붐바야 BOOMBAYAH</p></a>
-                        <p>Mon, 03 Jul 2023</p>
+                        <a href="#"><p>BLACKPINK WORLD TOUR [BORN PINK]...</p></a>
+                        <p>2023.06.26</p>
                         <hr>
-                        <a href="#"><p>TREASURE (T5) – MOVE D-DAY...</p></a>
-                        <p>Mon, 03 Jul 2023</p>
+                        <a href="#"><p>Changes related to BLACKPINK WOR...</p></a>
+                        <p>2023.06.01</p>
                     </div>
-                </section>
+            </section>
 
-            </div>
+            <section id="music-v">
+                <div class="title">
+                    <p>MUSIC VIDEO</p>
+                    <a href="#">more</a>
+                </div>
+            
+                <div class="cent">
+                    <a href="#"><img src="imagens/jisoo-thumb.jpg" alt="ota muié chinesa"></a>
+                    <div class="caption">
+                        <a href="#" class="name"><strong>꽃(FLOR)</strong></a>
+                        <a href="#" class="singer">JISOO</a>
+                        <p>2023.03.31</p>
+                    </div>
+            </section>
+            
+            <section id="news">
+                <div class="title">
+                    <p>NEWS</p>
+                    <a href="#">more</a>
+                </div>
+            
+                <div class="cent">
+                    <a href="#"><img src="imagens/bp-thumb.jpg" alt="molieres chinesas"></a>
+                    <div class="caption">
+                        <a href="#" class="name"><p>BLACKPINK Rewrite</p></a>
+                        <p>2023.04.26</p>
+                    </div>
+            </section>
+            
+            <section id="yg-life">
+                <div class="title">
+                    <p>YG LIFE</p>
+                    <a href="#">more</a>
+                </div>
+
+                <div class="content">
+                    <a href="#"><p>BLACKPINK–붐바야 BOOMBAYAH</p></a>
+                    <p>Mon, 03 Jul 2023</p>
+                    <hr>
+                    <a href="#"><p>TREASURE (T5) – MOVE D-DAY...</p></a>
+                    <p>Mon, 03 Jul 2023</p>
+                </div>
+            </section>
+
+        </div>
 
     </main>
 

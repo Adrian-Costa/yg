@@ -12,36 +12,44 @@ body, html{
     width: 100vw;
     height: 100vh;
 }
+header{
+    display: flex;
+    justify-content: center;
+}
 nav{
     display: flex;
-    margin: 35px 0px 20px 5px;
+    margin: 35px 0px 20px 0px;
+    justify-content: space-between;
 }
 #logo-h{
+    display: block;
+}
+#logo-h img{
     display: flex;
-}
-#logo-h > a > p{
-    display: flex;
-    margin: 0px;
-    line-height: 23px;
-}
-#logo-h > a:hover{
-    color: black;
-    cursor: pointer;
-}
-#logo-h > a > img{
     height: 45px;
 }
-div > a{
+#logo-h > a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    line-height: 22px;
+}
+#links{
+    display: block;
+}
+#links > a{
     text-decoration: none;
     color: black;
     font-weight: 700;
-    margin: 5px;
+    line-height: 20px;
+    font-size: 1.1em;
+    margin: 0px 7px 0px 7px;
 }
-a:hover{
-    color: red;
-}
-main > img{
-    width: 506px;
+
+
+picture > img{
+    width: 100vw;
     box-shadow: 0px 0px 10px black;
 }
 #main{
@@ -240,6 +248,7 @@ li > a:hover{
     justify-content: center;
 }
 #yg-st > a{
+    text-decoration: none;
     display: flex;
     justify-content: space-between;
     background-color: gray;
