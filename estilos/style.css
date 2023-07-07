@@ -228,8 +228,9 @@ li > a:hover{
 #chines{
     color: red;
 }
-#yg-st{
-    margin: 10px 30px 0px 30px;
+#cent{
+    display: flex;
+    justify-content: center;
 }
 #yg-st > a{
     display: flex;
