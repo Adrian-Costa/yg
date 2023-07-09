@@ -22,7 +22,7 @@ nav{
 #nav-p{
     display: flex;
     width: 100vw;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #logo-h{
     display: block;
@@ -55,7 +55,10 @@ nav{
     margin: 10px;
 }
 #languages > .no-slct{
-    color: rgb(83, 83, 83);
+    color: rgb(176, 176, 176);
+}
+#languages > .no-slct:hover{
+    color: black;
 }
 #links{
     display: block;
