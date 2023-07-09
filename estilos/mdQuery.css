@@ -67,17 +67,4 @@
         display: flex;
         gap: 16px;
     }
-    ul{
-        display: flex;
-    }
-    li{
-        list-style-type: none;
-        margin: 10px;
-    }
-    #yg-st{
-        display: flex;
-    }
-    #f-ft{
-        display: flex;
-    }
 }
