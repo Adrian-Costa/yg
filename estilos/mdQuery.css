@@ -1,15 +1,34 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 735px) and (max-width: 992px){
-    
+    #nav-p{
+        max-width: 985px;
+    }
+    #languages{
+        display: flex;
+    }#links > br{
+        display: none;
+    }
+    #links{
+        margin-top: -10px;
+    }
+    #links > a{
+        margin: 3px;
+    }
 }
 
 @media screen and (min-width: 985px) and (max-width: 1200px){
-    nav{
-        width: 985px;
+    #nav-p{
+        max-width: 985px;
+    }
+    #languages{
+        display: flex;
     }
     #links > br{
         display: none;
+    }
+    #links{
+        margin-top: -10px;
     }
     picture{
         display: flex;
@@ -21,11 +40,17 @@
 }
 
 @media screen and (min-width: 1200px){
-    nav{
-        width: 985px;
+    #nav-p{
+        max-width: 985px;
+    }
+    #languages{
+        display: flex;
     }
     #links > br{
         display: none;
+    }
+    #links{
+        margin-top: -10px;
     }
     picture{
         display: flex;
@@ -33,5 +58,9 @@
     }
     picture > img{
         width: 985px;
+    }
+    #main{
+        display: flex;
+        gap: 16px;
     }
 }

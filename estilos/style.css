@@ -17,12 +17,16 @@ header{
     justify-content: center;
 }
 nav{
-    display: flex;
     margin: 35px 0px 20px 0px;
+}
+#nav-p{
+    display: flex;
+    width: 100vw;
     justify-content: space-between;
 }
 #logo-h{
     display: block;
+    margin: 0px -10px 0px 0px;
 }
 #logo-h img{
     display: flex;
@@ -36,12 +40,13 @@ nav{
     font-weight: 700;
     line-height: 22px;
 }
-#nav-h{
-    display: grid;
-    justify-items: right;
+#languages{    
+    display: flex;
+    justify-content: right;
+    margin: -40px 0px 20px 0px;
+    display: none;
 }
 #languages > a{
-    display: none;
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -49,9 +54,13 @@ nav{
     font-size: 0.6em;
     margin: 10px;
 }
+#languages > .no-slct{
+    color: rgb(83, 83, 83);
+}
 #links{
     display: block;
-    margin-top: -10px;
+    margin-top: -4px;
+    min-width: 350px;
 }
 #links > a{
     text-decoration: none;
@@ -61,10 +70,9 @@ nav{
     font-size: 1.1em;
     margin: 0px 7px 0px 7px;
 }
-
-
 picture > img{
-    width: 100vw;
+    width: 100%;
+    display: block;
     box-shadow: 0px 0px 10px black;
 }
 #main{
@@ -197,7 +205,7 @@ hr{
 #yg-life > #content > p{
     margin-right: 0px;
 }
-footer > p{
+#nav-sm > p{
     text-align: center;
     color: rgb(83, 83, 83);
     font-size: 0.7em;
@@ -208,7 +216,7 @@ nav{
     justify-content: center;
     gap: 10px;
 }
-footer > nav > a > img{
+footer > #nav-sm > nav > a > img{
     width: 30px;
     border: 2px solid rgb(83, 83, 83);
     border-radius: 15px;
@@ -275,7 +283,7 @@ li > a:hover{
 #f-ft{
     display: flex;
     align-items: center;
-    margin: 35px;
+    margin: 15px 35px 35px 35px;
     gap: 10px;
 }
 #f-ft > img{
