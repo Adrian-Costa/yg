@@ -275,13 +275,13 @@ li > a:hover{
     justify-content: center;
 }
 #yg-st > a{
-    text-decoration: none;
     display: flex;
+    text-decoration: none;
     justify-content: space-between;
     background-color: gray;
     color: white;
     font-weight: 300;
-    width: 410px;
+    width: 80vw;
     padding: 3px 20px;
 }
 #f-ft{
