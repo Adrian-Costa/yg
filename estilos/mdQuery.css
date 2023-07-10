@@ -15,6 +15,35 @@
     #links > a{
         margin: 3px;
     }
+    li{
+        display: inline;
+    }
+    ul{
+        margin: 10px;
+    }
+    #yg-st > a{
+        width: 200px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+    #cent-f{
+        display: grid;
+        width: 90vw;
+        grid-template-columns: auto auto;
+    }
+    #sf-ft{
+        display: grid;
+        grid-column: 2;
+        width: 40vw;
+    }
+    #sf-ft br{
+        display: none;
+    }
+    #f-ft{
+        display: flex;
+        margin-top: -500px;
+        width: 50vw;
+    }
 }
 
 @media screen and (min-width: 985px) and (max-width: 1200px){
