@@ -1,15 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 735px) and (max-width: 992px){
-    #icon{
-        display: none;
-    }
     #nav-p{
         max-width: 1085px;
     }
     #languages{
         display: flex;
-    }#links > br{
+    }
+    #links > br{
         display: none;
     }
     #links{
@@ -19,12 +17,18 @@
     #links > a{
         margin: 3px;
     }
+    .hamburger{
+        display: none;
+    }
+    .links-i{
+        display: none;
+    }
+    .lang-i{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 985px) and (max-width: 1200px){
-    #icon{
-        display: none;
-    }
     #nav-p{
         max-width: 1085px;
     }
@@ -44,17 +48,23 @@
     }
     picture > img{
         width: 985px;
+    }
+    .hamburger{
+        display: none;
     }
     #main{
         display: flex;
         gap: 16px;
     }
+    .links-i{
+        display: none;
+    }
+    .lang-i{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1200px){
-    #icon{
-        display: none;
-    }
     #nav-p{
         max-width: 1085px;
     }
@@ -74,6 +84,15 @@
     }
     picture > img{
         width: 985px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .links-i{
+        display: none;
+    }
+    .lang-i{
+        display: none;
     }
     #main{
         display: flex;
