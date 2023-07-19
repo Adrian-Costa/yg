@@ -7,43 +7,65 @@
      <link rel="stylesheet" href="../estilos/style.css">
      <link rel="stylesheet" href="../estilos/mdQuery.css">
      <title>YG ENTERTAINMENT</title>
-     <link rel="shortcut icon" href="../favcon/favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="favcon/favicon.ico" type="image/x-icon">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  </head>
 
  <body>
     <header>
         <nav id="nav-p">
             <div id="logo-h">
-                <a href="#"><img src="../imagens/yg-logo-svg.png" alt="yg logo"><p>YG <br> FAMILY</p>
+                <a href="#">
+                    <img src="../imagens/yg-logo-svg.png" alt="yg logo"> <p>YG <br> FAMILY</p>
+                </a>
             </div>
             
             <div id="nav-h">
                 <div id="languages">
                     <a href="korean.html" target="_self" class="no-slct">KOREAN</a>
-                    <a href="../index.html" target="_self" class="no-slct">ENGLISH</a>
+                    <a href="../index.html"
+                    target="_self" class="no-slct">ENGLISH</a>
                     <a href="#"><strong>CHINESE</strong></a>
                     <a href="japanese.html" target="_self" class="no-slct">JAPANESE</a>
                 </div>
-                
-                <div id="links">
-                    <a href="#">NOTICE</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">ARTISTS</a>
-                    <a href="#">ACTORS</a>
-                    <br>
-                    <a href="#">MULTIMEDIA</a>
-                    <a href="#">SELECT</a>
-                    <a href="#">WITH</a>
-                    <a href="#">AUDITION</a>
-                </div>
-            </div>
+
+                <input type="checkbox" id="menu-hamburguer">
+
+                <label for="menu-hamburguer">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="#">NOTICE</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">ARTISTS</a></li>
+                    <li><a href="#">ACTORS</a></li>
+                    <li><a href="#">MULTIMEDIA</a></li>
+                    <li><a href="#">SELECT</a></li>
+                    <li><a href="#">WITH</a></li>
+                    <li><a href="#">AUDITION</a></li>
+
+                    <div class="lang-i">
+                        <li><a href="korean.html">KOREAN</a></li>
+                        <li><a href="../index.html">ENGLISH</a></li>
+                        <li><a href="#" id="marked">CHINESE</a></li>
+                        <li><a href="japanese.html">JAPANESE</a></li>
+                    </div>
+                </ul>
+ 
         </nav>
+
     </header>
 
     <main>
         
         <picture>
-            <source media="(max-width: 735px)" srcset="imagens/jisoo-s.jpg" type="image/png">
+            <source media="(max-width: 735px)" srcset="../imagens/jisoo-s.jpg" type="image/png">
             <img src="../imagens/jisoo-b.jpg" alt="muié chinesa">
         </picture>
         
@@ -136,31 +158,35 @@
 
         <hr>
 
-        <ul>
-            <li><a href="#">ABOUT YG</a></li>
-            <li><a href="#">YG RECRUIT</a></li>
-            <li><a href="#">CUSTOMER CENTER</a></li>
-            <li><a href="#" id="chines">개인정보처리방침</a></li>
-        </ul>
-        
-        <div id="cent">
-            <div id="yg-st">
-                <a href="#">
-                    <p>YG FAMILY SITE</p>
-                    <p>&darr;</p>
-                </a>
+            <div id="cent-f">
+                <div id="sf-ft">
+                    <ul>
+                        <li><a href="#">ABOUT YG</a></li>
+                        <li><a href="#">YG RECRUIT</a></li>
+                        <li><a href="#">CUSTOMER CENTER</a></li>
+                        <li><a href="#" id="chines">개인정보처리방침</a></li>
+                    </ul>
+                
+                    <div id="cent">
+                        <div id="yg-st">
+                            <a href="#">
+                                <p>YG FAMILY SITE</p>
+                                <p>&darr;</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="f-ft">
+                    <img src="../imagens/yg-logo-svg.png" alt="yg logo">
+                    <p>YG Entertainment 팔메이라스는 월드컵이 없다 <br>
+                    Copyright YG Entertainment All Rights Reserved.</p>
+                </div>
             </div>
-        </div>
-
-        <div id="f-ft">
-            <img src="../imagens/yg-logo-svg.png" alt="yg logo">
-            <p>YG Entertainment 팔메이라스는 월드컵이 없다 <br>
-                Copyright YG Entertainment All Rights Reserved.
-            </p>
-        </div>
-
     </footer>
 
  </body>
+
+    <script src="script/script.js"></script>
 
 </html>

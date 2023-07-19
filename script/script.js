@@ -1,8 +1,9 @@
 
-function clickMenu(){
-    if(links.style.display == 'block'){
-        links.style.display = 'none'
-    } else {
-        links.style.display = 'block'
+(function () {
+    const menu = document.querySelector('.hamburger');
+
+    menu.onclick = () => {
+        menu.classList.toggle('open');
     }
-}
+    
+})();
