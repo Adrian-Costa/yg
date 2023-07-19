@@ -98,6 +98,9 @@
         display: flex;
         gap: 16px;
     }
+    footer nav{
+        gap: 30px;
+    }
     #sf-ft{
         display: grid;
         grid-column: 2;

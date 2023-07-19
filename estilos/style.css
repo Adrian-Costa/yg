@@ -89,7 +89,7 @@ input:checked ~ label .hamburger{
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: 0.5s ease-in-out;
+    transition: 1.2s ease-in-out;
 }
 .hamburger span:nth-child(1){
     top: 2px;
@@ -107,10 +107,10 @@ input:checked ~ label .hamburger{
     left: 50%;
 }
 .hamburger.open span:nth-child(2){
-    transform: rotate(-45deg);
+    transform: rotate(-315deg);
 }
 .hamburger.open span:nth-child(3){
-    transform: rotate(45deg);
+    transform: rotate(315deg);
 }
 .hamburger.open span:nth-child(4){
     top: 18px;
@@ -141,7 +141,6 @@ header ul{
 header li{
     display: grid;
     list-style: none;
-    margin: 15px 20px 15px -20px;
 }
 .lang-i{
     display: flex;
@@ -152,16 +151,20 @@ header li{
 .lang-i a{
     text-decoration: none;
     color: rgb(133, 133, 133);
+    margin: 30px 10px 10px 10px;
 }
 #marked{
     color: black;
+}
+.links-i{
+    display: grid;
+    justify-items: center;
 }
 .links-i a{
     text-decoration: none;
     color: rgb(33, 33, 33);
     font-size: 2.3em;
     font-weight: 700;
-    margin: 0 auto;
 }
 ul > li > a:hover{
     color: rgb(255, 28, 28);
@@ -308,7 +311,7 @@ hr{
     font-size: 0.7em;
     margin: 50px 0px -20px 0px;
 }
-nav{
+footer nav{
     display: flex;
     justify-content: center;
     gap: 10px;
