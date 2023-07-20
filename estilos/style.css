@@ -152,14 +152,15 @@ header li{
 .lang-i a{
     text-decoration: none;
     color: rgb(133, 133, 133);
-    margin: 30px 10px 10px 10px;
+    margin: 70px 10px 10px 10px;
 }
 #marked{
     color: black;
 }
 .links-i{
     display: grid;
-    margin-left: -80px;
+    gap: 15px;
+    margin-left: -100px;
 }
 .links-i a{
     text-decoration: none;
